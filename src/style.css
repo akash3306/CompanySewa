@@ -1,0 +1,1017 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.navbar{
+    width: calc(100% - 282px);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    background-color: white;
+    height: 65px;
+    padding-top: 3px;
+    padding:0 141px;
+
+}
+.companylogo img{
+    padding-top: 17px;
+    height: 160px;
+    width: 180px;
+    cursor: pointer;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+   padding-right: 7px;
+   padding-top: 12px;
+   
+}
+ul li{
+   padding-left: 65px;
+    font-size: 15px;
+    cursor: pointer;
+}
+ul li:hover{
+    color: #f05b60;
+}
+.content{
+   
+    display: flex;
+    padding-left: 50px;
+}
+.content img{
+    height: 15px;
+    width: 15px;
+    margin: 0px 6px;
+    cursor: pointer;
+}
+.content .in{
+    height: 20px;
+    width: 18px;
+}
+.ham{
+    display: none;
+}
+.hamhover{
+    display: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 282px);
+    padding: 0 141px;
+}
+.partone{
+    width: 50%;
+   padding-top: 93px;
+}
+.nep{
+    color: #f05b60;
+    font-size: 15px;
+}
+.title{
+    font-size: 46px;
+    font-weight: bold;
+}
+.bottom{
+    font-size: 17px;
+    padding-top: 5px;
+    line-height: 30px;
+}
+.parttwo{
+    width: calc(50%);
+    padding: 140px 10px 50px 40px;
+    
+}
+.parttwo img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.red{
+    background-color:#f05b60;
+    color: white;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-top: 45px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+   padding-left: 10px;
+   font-size: 14px;
+}
+.red ion-icon{
+    font-size: 20px;
+   padding-right: 10px;
+
+}
+.submain{
+    width: calc(100% - 480px);
+    background-color: #6c4ecf;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 40px 240px;
+   
+}
+.one{
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
+.num1{
+    color: #8971da;
+    font-size: 69px;
+    font-weight: bolder;
+   
+ }
+.Y{
+    color: white;
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    
+}
+.contents{
+    background-color: whitesmoke;
+    display: flex;
+   width: calc(100% - 282);
+   padding: 70px 141px;
+    
+}
+.lady2 img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.texts{
+  margin-top: 100px;
+  width: 100%;
+   padding-left: 25px; 
+}
+.Am{
+    background-color: #e9e7ef;
+    font-size: 13px;
+    border-radius: 5px;
+    padding:2px 8px 2px 8px;
+    width: fit-content;
+}
+.crs{
+    font-size: 35px;
+    margin-top: 10px;
+    line-height: 45px;
+}
+.Tt{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 27px;
+}
+.Ttt{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 27px;
+}
+.Tit{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 27px;
+}
+.images{
+    width: calc(100% - 200px);
+    border: .3px solid black;
+    padding: 0 100px;    
+}
+.CONTENT{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 100px 0px;
+}
+.Title{
+   width: 100%;
+   text-align: center;
+  font-weight:600;
+  font-size: 34px;
+}
+.paragraph{
+    width: 100% ;
+   text-align: center;
+  line-height: 40px;
+  padding-top: 10px;
+   
+}
+.Box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.ONE{
+   
+    display: flex;
+    flex-wrap: wrap;
+    border: 1.5px solid #ebebeb;
+    padding-bottom: 33.5px;
+}
+.PM{
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.PM img{
+    height: 50px;
+    width: 49px;
+    margin-left: 13px;
+    margin-top: -14px;
+
+}
+.ONE .pmhead{
+   width: 100%;
+   font-size: 20px;
+   text-align: center;
+   font-weight: 600;
+   margin-top: -20px;
+   margin-left: 25px;
+}
+.ONE .pmcontent{
+    width: 100%;
+    text-align: center;
+    padding: 0px 30px;
+   line-height: 30px;
+   margin-top: 12px;
+}
+.division{
+    width: 100%;
+    padding: 115px 0px;
+}
+.CR{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+}
+.CRR{
+    text-align: center;
+    padding-top: 10px;
+}
+.BOXES{
+    width: calc(100% - 280px);
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 140px;
+    
+}
+
+.TWO{
+    width: calc(25% - 23px);
+    border: 1.5px solid #ebebeb;
+    border-radius: 10px;  
+    margin: 5px 10px;
+}
+.RE{
+    padding: 40px;
+    width: calc(100% - 80px);
+    display: flex;
+    justify-content: center;
+}
+.RE img{
+    height: 60px;
+    width: 60px;
+    margin-top: -20px;
+}
+.TWO .rehead{
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
+   margin-top: -25px;
+   padding-bottom: 29px;
+}
+.division1{
+    width: 100%;
+    padding: 115px 0px ;
+}
+.wrhead{
+    width: 100%;
+    text-align: center;
+    font-weight:600;
+    font-size: 34px;
+}
+.wrtail{
+    width: calc(100% - 60px);
+    text-align: center;
+    line-height: 30px;
+    padding: 0px 30px;
+}
+.piccc{
+    width: 100%;
+    display: flex;
+}
+
+.pic img{
+    height: 440px;
+    width: 320px;
+    margin-top: 40px;
+    margin-left: 385px;
+ 
+}
+.picc img{
+    height: 440px;
+    width: 320px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.purple{
+    width: calc(100%-280);
+    background-color: #6c4ecf;
+    color: white;
+    padding: 115px 140px;
+}
+.P{
+    font-weight:600;
+    font-size: 34px;
+}
+.Q{
+    color: whitesmoke;
+    line-height: 40px;
+}
+.R{
+    font-size: 20px;
+    font-weight:600;
+}
+.S{
+    color: whitesmoke;
+    line-height: 35px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.T{
+    font-size: 20px;
+    font-weight:600;
+    padding-top: 30px;
+}
+.U{
+    color: whitesmoke;
+    line-height: 35px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.division2{
+    width: 100%;
+    padding: 115px 0px;
+
+}
+.BOCR{
+    font-weight:600;
+    font-size: 34px;
+    text-align: center;
+}
+.BOCRR{
+    text-align: center;
+}
+.testi{
+    padding: 115px 0px;
+    background-color: #f8f7fc;
+    text-align: center;
+}
+.testimonial{
+    font-weight:600;
+    font-size: 34px;
+}
+.testimonials{
+    padding-top: 10px;
+}
+.testibox{
+    width: calc(100% - 280px);
+    padding: 0 140px;
+    display: flex;
+    justify-content: space-between;
+    height: 67vh;
+}
+
+.JKS{
+    width: 32%;
+    background-color: white;
+    margin-top: 55px;
+    border-radius: 8px;
+    border: .5px solid grey;
+    text-align: left;
+    
+}
+#book{
+    padding-top: 35px;
+    padding-left: 25px;
+    font-size: 30px;
+}
+.pp{
+   
+    padding-left: 30px;
+    padding-top: 10px;
+    line-height: 30px;
+    
+}
+#star{
+    padding-left: 30px;
+    padding-top: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    
+  
+}
+.nam{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.namm{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+.purple1{
+    width: 100%;
+    padding: 115px 0px;
+    background-color: #6c4ecf;
+    align-items: center;
+}
+.RDP{
+    font-weight:600;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+}
+.contacts{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   margin-top: 40px;
+}
+.contact{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 32px;
+    padding:9px 7px 0px 7px;
+    border-radius: 20px;
+    
+}
+.questbox{
+    background-color: whitesmoke;
+   padding-bottom: 80px;
+   width: 100%;
+}
+.FRQ{
+    padding-top: 100px;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 36PX;
+    font-weight: 500;
+}
+
+.q1{
+    background-color: white;
+    width: 80%;
+    margin-left: 130px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 3PX;
+    padding-top: 13px;
+    line-height: 30px;
+    transition: .5s linear all;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+.ques{
+    font-size: 17px;
+   font-weight: 500;
+   padding-bottom: 10px;
+   
+}
+.ans{
+    height: 0px;
+    transition: .5s linear all;
+}
+.q1 ul{
+    margin-left: 30px;
+ }
+ 
+
+table{
+   width: 100%;
+   padding-top: 10px;
+  
+}
+th, td {
+    text-align: left;
+    border: 1px solid grey;
+    padding: 5px 10px;
+  }
+.ending{
+    width: calc(100% - 200);
+    padding: 95px 100px;
+    background-color: #6c4ecf;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.divi{
+   margin-left: -23px;
+  }
+.logo{
+    height: 40px;
+    width: 180px;
+}
+.logo img{
+   width: 100%;
+    cursor: pointer;
+    object-fit: cover;
+  
+}
+.WAS{
+    color: white;
+    font-size: 16px;
+   line-height: 27px;
+   padding-top: 7px;
+}
+.logos{
+    padding-top: 35px;
+    width: 20vh;
+    display: flex;
+}
+.fbb{
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+.fbb img{
+    height: 13px;
+    width: 16px;
+    cursor: pointer;
+    padding: 3px 4px 0px 4px;
+}
+.tweett img{
+    height: 13px;
+    width: 16px;
+    cursor: pointer;
+    padding: 3px 4px 0px 4px;
+}
+.tweett{
+   background-color: whitesmoke;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.pin img{
+    height: 13px;
+    width: 16px;  
+    cursor: pointer;
+    padding: 3px 4px 0px 4px;
+}
+.pin{
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+.you img{
+    height: 13px;
+    width: 16px;
+    cursor: pointer;
+    padding: 3px 4px 0px 4px;
+}
+.you{
+    background-color: whitesmoke;
+    border-radius: 3px;
+ 
+}
+.divie{
+    margin-left: -80px;
+}
+.GL{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 13px;
+}
+.divie ul{
+    list-style-type: none;
+}
+.divie ul li{
+    color: whitesmoke;
+    font-size: 17px;
+   padding: 8px 0px;
+}
+.diviee{
+    margin-left: -65px;
+}
+.PPP{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 13px;
+}
+.divieee{
+    color: white;
+    margin-left: -65px;
+}
+.diviee ul{
+    list-style-type: none;
+}
+.diviee ul li{
+    color: whitesmoke;
+    font-size: 17px;
+    padding: 8px 0px;
+}
+.Add{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 13px;
+}
+.divieee{
+    margin-left: -50px;
+  
+}
+.divieee ion-icon{
+    font-size: 20px;
+}
+.contactt{
+    color: white;
+    margin-top: 20px;
+    width: 200px;
+    height: 32px;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+.mail{
+    color: white;
+   display: flex;
+   padding-top: 10px;
+}
+.mail ion-icon{
+   padding-right: 10px;
+   
+}
+.copy{
+    background-color: #6c4ecf;
+    text-align: center;
+    color: whitesmoke;
+    height: 7vh;
+    border: .5px solid grey;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        padding: 0 20px;
+        width: calc(100% - 40px);
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar .content{
+        display: none;
+    }
+    .ham{
+        display: block;
+        font-size: 40px;
+        padding-top: 15px;
+        cursor: pointer;
+    }
+    .hamhover{
+        display: block;
+        position: fixed;
+        width: 70%;
+        height: 100%;
+        top: 0;
+        left: -170%;
+        background-color: white;
+        box-shadow: 50px 0px 60px #777;
+        text-align: right;
+        transition: .5s ease;
+    }
+    .hamhover ion-icon{
+        font-size: 40px;
+        margin: 10px;
+    }
+    .hammenu{
+        padding: 10px;
+        width: fit-content;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .main{
+        display: block;
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+    .partone{
+        width: 100%;
+    }
+    .nep{
+        font-size: 14px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .bottom{
+        font-size: 14px;
+    }
+    .red{
+        margin-top: 20px;
+    }
+    .parttwo{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .submain{
+        width: calc(100% - 40px);
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .submain .one{
+        width: 150px;
+    }
+    .num1{
+        font-size: 50px;
+    }
+    .Y{
+        font-size: 12px;
+        top: 42px;
+    }
+
+
+    .contents{
+        display: block;
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+    .lady2 img{
+        margin-top: 20px;
+    }
+    .texts{
+        margin-top: 20px;
+        padding: 0;
+        width: calc(100%);
+    }
+
+    .images{
+        margin: 40px 0;
+        display: none;
+    }
+
+    .CONTENT{
+        padding: 20px;
+        width: calc(100% - 40px);
+    }
+    .Title{
+        text-align: left;
+        font-size: 25px;
+    }
+    .paragraph{
+        text-align: left;
+        line-height: 30px;
+    }
+    .Box{
+        display: block;
+        padding-top: 40px;
+    }
+    .division{
+        width: calc(100% - 40px);
+        padding: 40px 20px;
+    }
+    .CR{
+        font-size: 25px;
+    }
+    .CRR{
+        font-size: 14px;
+    }
+    .BOXES{
+        width: calc(100%);
+        padding: 0;
+    }
+    .TWO{
+        width: calc(50% - 23px)
+    }
+    .TWO .rehead{
+        font-size: 12px;
+    }
+    .division1{
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+    .wrhead{
+        font-size: 25px;
+    }
+    .wrtail{
+        font-size: 14px;
+    }
+    .pic{
+        width: 50%;
+        padding: 40px 0;
+    }
+    .pic img{
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+    }
+    .picc{
+        width: 50%;
+        padding: 40px 0;
+    }
+    .picc img{
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+    }
+
+    .purple{
+        width: calc(100% - 40px);
+        padding: 40px 20px;
+    }
+    .P{
+        font-size: 25px;
+    }
+    .R{
+        font-size: 18px;
+    }
+    .T{
+        font-size: 18px;
+    }
+
+    .division2{
+        width: calc(100% - 40px);
+        padding: 40px 20px;
+    }
+    .BOCR{
+        font-size: 25px;
+        width: calc(100%);
+    }
+    .BOCRR{
+        font-size: 14px;
+        width: calc(100%);
+    }
+
+
+    .testi{
+        width: calc(100% - 40px);
+        padding: 40px 20px;
+    }
+    .testimonial{
+        font-size: 25px;
+    }
+    .testimonials{
+        font-size: 14px;
+    }
+    .testibox{
+        padding: 0;
+        width: calc(100%);
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    .JKS{
+        width: 100%;
+        margin-top: 55px;
+        padding-bottom: 40px;
+    }
+    #book{
+        font-size: 25px;
+    }
+    #star{
+        font-size: 18px;
+    }
+    .namm{
+        font-size: 12px;
+    }
+
+    .purple1{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .RDP{
+        padding: 0 50px;
+        width: calc(100% - 100px);
+        font-size: 25px;
+    }
+
+    .questbox{
+        padding: 40px 20px;
+       width: calc(100% - 40px);
+    }
+    .FRQ{
+        padding-top: 0px;
+        font-size: 25px;
+    }
+    .q1{
+        width: calc(100% - 62px);
+        margin-left: 0px;
+    }
+    .ques{
+        font-size: 14px;
+       font-weight: 500;
+       padding-bottom: 10px;
+       
+    }
+    .ans{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .q1 ul{
+        margin-left: 0px;
+    }
+    th, td{
+        padding: 2px 5px;
+    }
+
+    .ending{
+        width: calc(100% - 40px);
+        padding: 40px 20px;
+        flex-wrap: wrap;
+      }
+    .divi{
+       margin-left: 0px;
+       width: 100%;
+      }
+    .WAS{
+        font-size: 14px;
+    }
+    .divie{
+        margin-left: 0px;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .GL{
+        font-size: 16px;
+    }
+    .divie ul li{
+        font-size: 14px;
+    }
+    .diviee{
+        margin-left: 0px;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .PPP{
+        font-size: 16px;
+    }
+    .divieee{
+        margin-left: 0px;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .diviee ul li{
+        font-size: 14px;
+    }
+    .Add{
+        font-size: 16px;
+    }
+    .divieee{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .divieee ion-icon{
+        font-size: 14px;
+    }
+    .contactt{
+        font-size: 14px;
+    }
+    .mail{
+        color: white;
+       display: flex;
+       padding-top: 10px;
+    }
+    .mail ion-icon{
+       padding-right: 10px;
+       
+    }
+  }

@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import { Navbar } from './components/Navbar'
+import {BodyA} from './components/BodyA'
+import {BodyB} from './components/BodyB'
+import {BodyC} from './components/BodyC'
+import {BodyD} from './components/BodyD'
+import {BodyE} from './components/BodyE'
+import {BodyF} from './components/BodyF'
+import {BodyG} from './components/BodyG'
+import {BodyH} from './components/BodyH'
+import {BodyI} from './components/BodyI'
+import {BodyJ} from './components/BodyJ'
+import {Bodyk} from './components/Bodyk'
+import {Question} from './components/Question'
+import {Bottom} from './components/Bottom'
+import {Butum} from './components/Butum'
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='mainn'>
+       <Navbar/>
+        <BodyA/>
+        <BodyB/>
+        <BodyC/>
+        <BodyD/>
+        <BodyE/>
+        <BodyF/>
+        <BodyG/>
+        <BodyH/>
+        <BodyI/>
+        <BodyJ/>
+        <Bodyk/>
+        <Question/>
+       <Bottom/>
+       <Butum/>
     </div>
   );
 }
 
-export default App;
+
+
